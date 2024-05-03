@@ -10,5 +10,10 @@ namespace Kreta.Desktop.Repos
         {
             return KretaDatabase.AwardedStudents;
         }
+
+        public int GetNumberOfAwardedStudent()
+        {
+            return 0;
+        }
     }
 }
